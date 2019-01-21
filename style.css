@@ -1,27 +1,29 @@
 body {
 background-color: black;
 }
-  
-.navbar{
-margin-top: 0px;
-margin-bottom:0px;
+
+.navbar {
+width: 100%;
+max-width: 960px;
 height: 100px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+margin-bottom: 0px;
 }
 
 .navbar-brand {
-margin-left: 270px;
-margin-right: 370px;
+margin-left: 0px;
+margin-right: 350px;
 margin-top: 0px;
 margin-bottom: 0px;
 background-color: grey;
-background-size: 40px;
-max-width: 450px;
 height: 100px;
 padding-top:30px;
 padding-left: 30px;
-padding-right:30px; 
+padding-right: 30px; 
 }
-
+    
 h1 {
 font-family: 'Monoton', cursive;
 font-size: 30px;
@@ -29,16 +31,19 @@ font-weight: 500;
 }
 
 .nav-link {
+padding-left: 100px;
 font-family: 'Audiowide', cursive;
 font-size: 15px;
 color: darkslategrey;
 }
 
+
+
 #first-hr {
 margin-top: 0px;
 margin-bottom: 0px;
 }
-
+    
 .container {
 background-color: white;
 max-width: 960px;
@@ -57,16 +62,16 @@ margin-bottom:0;
 .row-1 {
 margin-bottom: 0px;
 }
-
+    
 .row {
 font-family: 'Major Mono Display', monospace;
 font-size: 20px;
 }
 
 .me {
-    width: 250px;
-    margin: 10px;
-    padding: 10px;
+width: 250px;
+margin: 10px;
+padding: 10px;
 }
 
 h2 {
@@ -78,7 +83,7 @@ margin: 10px;
 padding: 10px;
 line-height: 25px;
 }
-  
+    
 /* contact */
 
 input[type=message] {
@@ -93,7 +98,7 @@ padding-bottom: 20px;
 }
 
 /* portfolio */
-   
+    
 .project {
 width: 250px;
 position: relative;
@@ -114,10 +119,9 @@ font-weight: 500;
 background: grey; 
 }
 
-
-
+    
+    
 /*fonts
-
 font-family: 'Charm', cursive;
 font-family: 'Major Mono Display', monospace;
 font-family: 'Luckiest Guy', cursive;
